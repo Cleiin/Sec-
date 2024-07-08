@@ -1,0 +1,1514 @@
+NEW QUESTION 1
+- (Exam Topic 1)
+A security engineer is installing a WAF to protect the company's website from malicious web requests over SSL. Which of the following is needed to meet the objective?
+A. A reverse proxy
+B. A decryption certificate
+C. A spill-tunnel VPN
+D. Load-balanced servers
+Answer: B
+Explanation: 
+A Web Application Firewall (WAF) is a security solution that protects web applications from various types of attacks such as SQL injection, cross-site scripting (XSS), and others. It is typically deployed in front of web servers to inspect incoming traffic and filter out malicious requests.
+To protect the company's website from malicious web requests over SSL, a decryption certificate is needed to decrypt the SSL traffic before it reaches the WAF. This allows the WAF to inspect the traffic and filter out malicious requests.
+
+
+NEW QUESTION 2
+- (Exam Topic 1)
+A network engineer and a security engineer are discussing ways to monitor network operations. Which of the following is the BEST method?
+A. Disable Telnet and force SSH.
+B. Establish a continuous ping.
+C. Utilize an agentless monitor
+D. Enable SNMPv3 With passwords.
+Answer: C
+Explanation: 
+An agentless monitor is the best method to monitor network operations because it does not require any software or agents to be installed on the devices being monitored, making it less intrusive and less likely to disrupt network operations. This method can monitor various aspects of network operations, such as traffic, performance, and security.
+CompTIA Security+ Study Guide, Sixth Edition (SY0-601), Chapter 4: Attacks, Threats, and Vulnerabilities, Monitoring and Detection Techniques, pg. 167-170.
+
+
+NEW QUESTION 3
+- (Exam Topic 1)
+A Chief Information Officer is concerned about employees using company-issued laptops lo steal data when accessing network shares. Which of the following should the company Implement?
+A. DLP
+B. CASB
+C. HIDS
+D. EDR
+E. UEFI
+Answer: A
+Explanation: 
+The company should implement Data Loss Prevention (DLP) to prevent employees from stealing data when accessing network shares. References:  CompTIA Security+ Study Guide Exam SY0-601, Chapter 8
+
+
+NEW QUESTION 4
+- (Exam Topic 1)
+The Chief Executive Officer announced a new partnership with a strategic vendor and asked the Chief Information Security Officer to federate user digital identities using SAML-based protocols. Which of the following will this enable?
+A. SSO 
+B. MFA
+C. PKI
+D. OLP
+Answer: A
+Explanation: 
+Federating user digital identities using SAML-based protocols enables Single Sign-On (SSO), which allows users to log in once and access multiple applications without having to enter their credentials for each one. References:
+ CompTIA Security+ Certification Exam Objectives 1.3: Explain authentication and access controls.  CompTIA Security+ Study Guide, Sixth Edition, pages 41-42
+
+
+NEW QUESTION 5
+- (Exam Topic 1)
+A security assessment found that several embedded systems are running unsecure protocols. These Systems were purchased two years ago and the company that developed them is no longer in business Which of the following constraints BEST describes the reason the findings cannot be remediated?
+A. inability to authenticate
+B. Implied trust
+C. Lack of computing power
+D. Unavailable patch
+Answer: D
+Explanation: 
+If the systems are running unsecure protocols and the company that developed them is no longer in business, it is likely that there are no patches available to remediate the issue. References:
+CompTIA Security+ Study Guide, Sixth Edition, pages 35-36
+
+
+NEW QUESTION 6
+- (Exam Topic 1)
+A security analyst was deploying a new website and found a connection attempting to authenticate on the site's portal. While Investigating The incident, the analyst identified the following Input in the username field:
+
+Which of the following BEST explains this type of attack?
+A. DLL injection to hijack administrator services
+B. SQLi on the field to bypass authenticationC. Execution of a stored XSS on the website
+D. Code to execute a race condition on the server
+Answer: B
+Explanation: 
+The input "admin' or 1=1--" in the username field is an example of SQL injection (SQLi) attack. In this case, the attacker is attempting to bypass authentication by injecting SQL code into the username field that will cause the authentication check to always return true. References: CompTIA Security+ SY0-601 Exam Objectives: 3.1 Given a scenario, use appropriate software tools to assess the security posture of an organization.
+
+
+NEW QUESTION 7
+- (Exam Topic 1)
+Which of the following provides a catalog of security and privacy controls related to the United States federal information systems?
+A. GDPR
+B. PCI DSS
+C. ISO 27000
+D. NIST 800-53
+Answer: D
+Explanation: 
+NIST 800-53 provides a catalog of security and privacy controls related to the United States federal information systems. References: CompTIA Security+ Study
+Guide, Exam SY0-601, 4th Edition, Chapter 3: Architecture and Design, pp. 123-125
+
+
+NEW QUESTION 8
+- (Exam Topic 1)
+An analyst is working on an email security incident in which the target opened an attachment containing a worm. The analyst wants to implement mitigation techniques to prevent further spread. Which of the following is the BEST course of action for the analyst to take?
+A. Apply a DLP solution.
+B. Implement network segmentation
+C. Utilize email content filtering,D. isolate the infected attachment.
+Answer: B
+Explanation: 
+Network segmentation is the BEST course of action for the analyst to take to prevent further spread of the worm. Network segmentation helps to divide a network into smaller segments, isolating the infected attachment from the rest of the network. This helps to prevent the worm from spreading to other devices within the network. Implementing email content filtering or DLP solution might help in preventing the email from reaching the target or identifying the worm, respectively, but will not stop the spread of the worm. References: CompTIA Security+ Study Guide, Chapter 5: Securing Network Infrastructure, 5.2 Implement Network Segmentation, pp. 286-289
+
+
+NEW QUESTION 9
+- (Exam Topic 1)
+Which of the following should a technician consider when selecting an encryption method for data that needs to remain confidential for a specific length of time?
+A. The key length of the encryption algorithm
+B. The encryption algorithm's longevity
+C. A method of introducing entropy into key calculations
+D. The computational overhead of calculating the encryption key
+Answer: B
+Explanation: 
+When selecting an encryption method for data that needs to remain confidential for a specific length of time, the longevity of the encryption algorithm should be considered to ensure that the data remains secure for the required period. References: CompTIA Security+ Certification Exam Objectives - 3.2 Given a scenario, use appropriate cryptographic methods. Study Guide: Chapter 4, page 131.
+
+
+NEW QUESTION 10
+- (Exam Topic 1)
+Which of the following authentication methods is considered to be the LEAST secure?
+A. TOTP
+B. SMS
+C. HOTP
+D. Token key
+Answer: B
+Explanation: 
+SMS-based authentication is considered to be the least secure among the given options. This is because SMS messages can be intercepted or redirected by attackers through techniques such as SIM swapping, man-in-the-middle attacks, or exploiting weaknesses in the SS7 protocol used by mobile networks. Additionally, SMS messages can be compromised if a user's phone is lost, stolen, or infected with malware. In contrast, TOTP (Time-based One-Time Password), HOTP (HMAC-based One-Time Password), and token keys are more secure as they rely on cryptographic algorithms or physical devices to generate one-time use codes, which are less susceptible to interception or unauthorized access. Reference: 1. National Institute of Standards and Technology (NIST). (2017). Digital Identity Guidelines: Authentication and Lifecycle
+Management (NIST SP 800-63B). https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf
+
+
+NEW QUESTION 10
+- (Exam Topic 1)
+An enterprise needs to keep cryptographic keys in a safe manner. Which of the following network appliances can achieve this goal?
+A. HSM
+B. CASB
+C. TPM
+D. DLP
+Answer: A
+Explanation: 
+Hardware Security Module (HSM) is a network appliance designed to securely store cryptographic keys and perform cryptographic operations. HSMs provide a secure environment for key management and can be used to keep cryptographic keys safe from theft, loss, or unauthorized access. Therefore, an enterprise can achieve the goal of keeping cryptographic keys in a safe manner by using an HSM appliance. References: CompTIA Security+ Certification Exam Objectives,
+Exam Domain 2.0: Technologies and Tools, 2.4 Given a scenario, use appropriate tools and techniques to troubleshoot security issues, p. 21
+
+
+NEW QUESTION 15
+- (Exam Topic 1)
+An information security manager for an organization is completing a PCI DSS self-assessment for the first time. which of the is following MOST likely reason for this type of assessment?
+A. An international expansion project is currently underway.
+B. Outside consultants utilize this tool to measure security maturity.
+C. The organization is expecting to process credit card information.
+D. A government regulator has requested this audit to be completed
+Answer: C
+Explanation: 
+PCI DSS (Payment Card Industry Data Security Standard) is a set of security standards designed to ensure that all companies that accept, process, store, or transmit credit card information maintain a secure environment. Any organization that accepts credit card payments is required to comply with PCI DSS.
+
+
+NEW QUESTION 20
+- (Exam Topic 1)
+A systems engineer is building a new system for production. Which of the following is the FINAL step to be performed prior to promoting to production?
+A. Disable unneeded services.
+B. Install the latest security patches.
+C. Run a vulnerability scan.
+D. Encrypt all disks.
+Answer: C
+Explanation: 
+Running a vulnerability scan is the final step to be performed prior to promoting a system to production. This allows any remaining security issues to be identified and resolved before the system is put into production. References: CompTIA Security+ Study Guide, Exam SY0-601, 4th Edition, Chapter 3
+
+
+NEW QUESTION 21
+- (Exam Topic 1)
+A security engineer needs to build @ solution to satisfy regulatory requirements that stale certain critical servers must be accessed using MFA However, the critical servers are older and are unable to support the addition of MFA, Which of te following will the engineer MOST likely use to achieve this objective?
+A. A forward proxy
+B. A stateful firewall
+C. A jump server
+D. A port tap
+Answer: C
+Explanation: 
+A jump server is a secure host that allows users to access other servers within a network. The jump server acts as an intermediary, and users can access other servers via the jump server after authenticating with MFA.
+
+
+NEW QUESTION 26
+- (Exam Topic 1)
+A security analyst is reviewing the vulnerability scan report for a web server following an incident. The vulnerability that was used to exploit the server is present in historical vulnerability scan reports, and a patch is available for the vulnerability. Which of the following is the MOST likely cause?
+A. Security patches were uninstalled due to user impact.
+B. An adversary altered the vulnerability scan reports
+C. A zero-day vulnerability was used to exploit the web server
+D. The scan reported a false negative for the vulnerability
+Answer: A
+Explanation: 
+A security patch is a software update that fixes a vulnerability or bug that could be exploited by attackers. Security patches are essential for maintaining the security and functionality of systems and applications.
+If the vulnerability that was used to exploit the server is present in historical vulnerability scan reports, and a patch is available for the vulnerability, it means that the patch was either not applied or was uninstalled at some point. A possible reason for uninstalling a security patch could be user impact, such as performance degradation, compatibility issues, or functionality loss. The other options are not correct because:
+• B. An adversary altered the vulnerability scan reports. This could be a possibility, but it is less likely than option A. An adversary would need to have access tothe vulnerability scan reports and be able to modify them without being detected. Moreover, altering the reports would not prevent the patch from being applied or uninstalled.
+ C. A zero-day vulnerability was used to exploit the web server. This is not correct because a zero-day vulnerability is a vulnerability that is unknown to the public or the vendor, and therefore has no patch available. The question states that a patch is available for the vulnerability that was used to exploit the server.
+• D. The scan reported a false negative for the vulnerability. This is not correct because a false negative is when a scan fails to detect a vulnerability that ispresent. The question states that the vulnerability is present in historical vulnerability scan reports, which means that it was detected by previous scans.
+According to CompTIA Security+ SY0-601 Exam Objectives 1.4 Given a scenario, analyze potential indicators to determine the type of attack:
+"A security patch is a software update that fixes a vulnerability or bug that could be exploited by attackers."
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://www.getastra.com/blog/security-audit/vulnerability-scanning-report/
+
+
+NEW QUESTION 31
+- (Exam Topic 1)
+A client sent several inquiries to a project manager about the delinquent delivery status of some critical reports. The project manager claimed the reports were previously sent via email, but then quickly generated and backdated the reports before submitting them as plain text within the body of a new email message thread. Which of the following actions MOST likely supports an investigation for fraudulent submission?
+A. Establish chain of custody.
+B. Inspect the file metadata.
+C. Reference the data retention policy.
+D. Review the email event logs
+Answer: D
+Explanation: 
+Reviewing the email event logs can support an investigation for fraudulent submission, as these logs can provide details about the history of emails, including the message content, timestamps, and sender/receiver information. Reference: CompTIA Security+ Certification Exam Objectives, Exam SY0-601, 3.2 Given a scenario, implement appropriate data security and privacy controls.
+
+
+NEW QUESTION 34
+- (Exam Topic 1)
+Which of the following BEST describes the team that acts as a referee during a penetration-testing exercise?
+A. White team
+B. Purple team
+C. Green team
+D. Blue team
+E. Red team
+Answer: A
+Explanation: 
+During a penetration testing exercise, the white team is responsible for acting as a referee and providing oversight and support to ensure that the testing is conducted safely and effectively. They may also be responsible for determining the rules and guidelines of the exercise, monitoring the progress of the teams, and providing feedback and insights on the strengths and weaknesses of the organization's security measures.
+
+
+NEW QUESTION 35
+- (Exam Topic 1)
+Which of the following isa risk that is specifically associated with hesting applications iin the public cloud?
+A. Unsecured root accounts
+B. Zero day
+C. Shared tenancy
+D. Insider threat
+Answer: C
+Explanation: 
+When hosting applications in the public cloud, there is a risk of shared tenancy, meaning that multiple organizations are sharing the same infrastructure. This can potentially allow one tenant to access another tenant's data, creating a security risk. References: CompTIA Security+ Certification Exam Objectives (SY0-601)
+
+
+NEW QUESTION 39
+- (Exam Topic 1)
+Which of the following uses six initial steps that provide basic control over system security by including hardware and software inventory, vulnerability management, and continuous monitoring to minimize risk in all network environments?
+A. ISO 27701
+B. The Center for Internet Security
+C. SSAE SOC 2
+D. NIST Risk Management Framework
+Answer: B
+Explanation: 
+The Center for Internet Security (CIS) uses six initial steps that provide basic control over system security, including hardware and software inventory, vulnerability management, and continuous monitoring to minimize risk in all network environments. References:
+ CompTIA Security+ Certification Exam Objectives 1.1: Compare and contrast different types of security concepts.  CompTIA Security+ Study Guide, Sixth Edition, pages 15-16
+
+
+NEW QUESTION 41
+- (Exam Topic 1)
+A security analyst must enforce policies to harden an MDM infrastructure. The requirements are as follows: * Ensure mobile devices can be tracked and wiped.
+* Confirm mobile devices are encrypted.
+Which of the following should the analyst enable on all the devices to meet these requirements?
+A. A Geofencing
+B. Biometric authentication
+C. Geolocation
+D. Geotagging
+Answer: A
+Explanation: 
+Geofencing is a technology used in mobile device management (MDM) to allow administrators to define geographical boundaries within which mobile devices can operate. This can be used to enforce location-based policies, such as ensuring that devices can be tracked and wiped if lost or stolen. Additionally, encryption can be enforced on the devices to ensure the protection of sensitive data in the event of theft or loss. References:  CompTIA Security+ Study Guide, Exam SY0-601, 4th Edition, Chapter 7 
+
+
+NEW QUESTION 43
+- (Exam Topic 1)
+An organization wants to enable built-in FDE on all laptops Which of the following should the organization ensure is Installed on all laptops?
+A. TPM
+B. CA
+C. SAML
+D. CRL
+Answer: A
+Explanation: 
+The organization should ensure that a Trusted Platform Module (TPM) is installed on all laptops in order to enable built-in Full Disk Encryption (FDE). TPM is a hardware-based security chip that stores encryption keys and helps to protect data from malicious attacks. It is important to ensure that the TPM is properly configured and enabled in order to get the most out of FDE.
+
+
+NEW QUESTION 44
+- (Exam Topic 1)
+A new security engineer has started hardening systems. One of the hardening techniques the engineer is using involves disabling remote logins to the NAS. Users are now reporting the inability to use SCP to transfer files to the NAS, even through the data is still viewable from the user's PCs. Which of the following is the most likely cause of this issue?
+A. TFTP was disabled on the local hosts
+B. SSH was turned off instead of modifying the configuration file
+C. Remote login was disabled in the networkd.config instead of using the sshd.conf
+D. Network services are no longer running on the NAS
+Answer: B
+Explanation: 
+SSH stands for Secure Shell Protocol, which is a cryptographic network protocol that allows secure remote login and command execution on a network device12. SSH can encrypt both the authentication information and the data being exchanged between the client and the server2. SSH can be used to access and manage a NAS device remotely3.
+
+
+NEW QUESTION 49
+- (Exam Topic 1)
+A company recently experienced a major breach. An investigation concludes that customer credit card data was stolen and exfiltrated through a dedicated business partner connection to a vendor, who is not held to the same security contral standards. Which of the following is the MOST likely source of the breach?
+A. Side channel
+B. Supply chain
+C. Cryptographic downgrade
+D. Malware
+Answer: B
+Explanation: 
+A supply chain attack occurs when a third-party supplier or business partner is compromised, leading to an attacker gaining unauthorized access to the targeted organization's network. In this scenario, the dedicated business partner connection to a vendor was used to exfiltrate customer credit card data, indicating that the vendor's network was breached and used as a supply chain attack vector.
+
+
+NEW QUESTION 50
+- (Exam Topic 1)
+A customer has reported that an organization's website displayed an image of a smiley (ace rather than the expected web page for a short time two days earlier. A security analyst reviews log tries and sees the following around the lime of the incident:
+
+Which of the following is MOST likely occurring?
+A. Invalid trust chain
+B. Domain hijacking
+C. DNS poisoning
+D. URL redirection
+Answer: C
+Explanation: 
+The log entry shows the IP address for "www.example.com" being changed to a different IP address, which is likely the result of DNS poisoning. DNS poisoning occurs when an attacker is able to change the IP address associated with a domain name in a DNS server's cache, causing clients to connect to the attacker's server instead of the legitimate server. References: CompTIA Security+ SY0-601 Exam Objectives: 3.2 Given a scenario, implement secure network architecture concepts.
+
+
+NEW QUESTION 52
+- (Exam Topic 1)
+Which of the following cryptographic concepts would a security engineer utilize while implementing non-repudiation? (Select TWO)
+A. Block cipher
+B. Hashing
+C. Private key
+D. Perfect forward secrecy
+E. Salting
+F. Symmetric keys
+Answer: BC
+Explanation: 
+Non-repudiation is the ability to ensure that a party cannot deny a previous action or event. Cryptographic concepts that can be used to implement non-repudiation include hashing and digital signatures, which use a private key to sign a message and ensure that the signature is unique to the signer. References: CompTIA Security+ Certification Exam Objectives (SY0-601)
+
+
+NEW QUESTION 57
+- (Exam Topic 1)
+A major clothing company recently lost a large amount of proprietary information. The security officer must find a solution to ensure this never happens again. Which of the following is the BEST technical implementation to prevent this from happening again?
+A. Configure DLP solutions
+B. Disable peer-to-peer sharing
+C. Enable role-based
+D. Mandate job rotation
+E. Implement content filters
+Answer: A
+Explanation: 
+Data loss prevention (DLP) solutions can prevent the accidental or intentional loss of sensitive data. DLP tools can identify and protect sensitive data by classifying and categorizing it, encrypting it, or blocking it from being transferred outside the organization's network.
+
+
+NEW QUESTION 62
+- (Exam Topic 1)
+A junior security analyst is reviewing web server logs and identifies the following pattern in the log file:
+
+Which of the following types of attacks is being attempted and how can it be mitigated?
+A. XS
+B. mplement a SIEMC. CSR
+D. implement an IPS
+E. Directory traversal implement a WAF
+F. SQL infection, mplement an IDS
+Answer: C
+Explanation: 
+Detailed
+The attack being attempted is directory traversal, which is a web application attack that allows an attacker to access files and directories outside of the web root directory. A WAF can help mitigate this attack by detecting and blocking attempts to access files outside of the web root directory.
+References: CompTIA Security+ Study Guide: Exam SY0-601, Chapter 4: Securing Application Development and Deployment, p. 191
+
+
+NEW QUESTION 63
+- (Exam Topic 1)
+A user reports trouble using a corporate laptop. The laptop freezes and responds slowly when writing documents and the mouse pointer occasional disappears. The task list shows the following results
+
+Which of the following is MOST likely the issue?
+A. RAT
+B. PUP
+C. Spyware
+D. Keylogger
+Answer: C
+Explanation: 
+Spyware is malicious software that can cause a computer to slow down or freeze. It can also cause the mouse pointer to disappear. The task list shows an application named "spyware.exe" running, indicating that spyware is likely the issue. References:
+ CompTIA Security+ Certification Exam Objectives 6.0: Given a scenario, analyze indicators of compromise and determine the type of malware.  CompTIA Security+ Study Guide, Sixth Edition, pages 125-126
+
+
+NEW QUESTION 65
+- (Exam Topic 1)
+Which of the following controls would be the MOST cost-effective and time-efficient to deter intrusions at the perimeter of a restricted, remote military training area? (Select TWO).
+A. Barricades
+B. Thermal sensors
+C. Drones
+D. Signage
+E. Motion sensors
+F. Guards
+G. Bollards
+Answer: AD
+Explanation: 
+Barricades and signage are the most cost-effective and time-efficient controls to deter intrusions at the perimeter of a restricted, remote military training area. References:
+ CompTIA Security+ Study Guide Exam SY0-601, Chapter 7
+
+
+NEW QUESTION 70
+- (Exam Topic 1)
+A grocery store is expressing security and reliability concerns regarding the on-site backup strategy currently being performed by locally attached disks. The main concerns are the physical security of the backup media and the durability of the data stored on these devices Which of the following is a cost-effective approach to address these concerns?
+A. Enhance resiliency by adding a hardware RAID.
+B. Move data to a tape library and store the tapes off-site
+C. Install a local network-attached storage.
+D. Migrate to a cloud backup solution
+Answer: D
+Explanation: 
+a backup strategy is a plan that defines how to protect data from loss or corruption by creating and storing copies of data on a different medium or location1. A backup strategy should consider the security and reliability of the backup data and the backup storage234.
+Based on these definitions, the best option that is a cost-effective approach to address the security and reliability concerns regarding the on-site backup strategy would be D. Migrate to a cloud backup solutio2n4. A cloud backup solution can provide several benefits, such as:
+ Enhanced physical security of the backup data by storing it in a remote location that is protected by multiple layers of security measures.
+ Enhanced durability of the backup data by storing it on highly reliable storage devices that are replicated across multiple availability zones or regions.
+ Reduced costs of backup storage by paying only for the amount of data stored and transferred, and by using features such as compression, deduplication, encryption, and lifecycle management.
+ Increased flexibility and scalability of backup storage by choosing from various storage classes and tiers that match the performance and availability requirements of the backup data.
+
+
+NEW QUESTION 75
+- (Exam Topic 1)
+Which of the following are the MOST likely vectors for the unauthorized inclusion of vulnerable code in a software company's final software releases? (Select
+TWO.)
+A. Unsecure protocols
+B. Use of penetration-testing utilities
+C. Weak passwords
+D. Included third-party libraries
+E. Vendors/supply chain
+F. Outdated anti-malware software
+Answer: DE
+Explanation: 
+The most likely vectors for the unauthorized inclusion of vulnerable code in a software company's final software releases are included third-party libraries and vendors/supply chain. References: CompTIA Security+ Study Guide by Emmett Dulaney, Chapter 8: Application, Data, and Host Security, Supply Chain and Software Development Life Cycle
+
+
+NEW QUESTION 77
+- (Exam Topic 1)
+Which of the following in a forensic investigation should be priorities based on the order of volatility? (Select TWO).
+A. Page files
+B. Event logs
+C. RAM
+D. Cache
+E. Stored files
+F. HDD
+Answer: CD
+Explanation: 
+In a forensic investigation, volatile data should be collected first, based on the order of volatility. RAM and Cache are examples of volatile data. References: CompTIA Security+ Study Guide 601, Chapter 11
+
+
+NEW QUESTION 81
+- (Exam Topic 1)
+The security team received a report of copyright infringement from the IP space of the corporate network. The report provided a precise time stamp for the incident as well as the name of the copyrighted files. The analyst has been tasked with determining the infringing source machine and instructed to implement measures to prevent such incidents from occurring again. Which of the following is MOST capable of accomplishing both tasks?
+A. HIDS
+B. Allow list
+C. TPM
+D. NGFW
+Answer: D
+Explanation: 
+Next-Generation Firewalls (NGFWs) are designed to provide advanced threat protection by combining traditional firewall capabilities with intrusion prevention, application control, and other security features. NGFWs can detect and block unauthorized access attempts, malware infections, and other suspicious activity.
+They can also be used to monitor file access and detect unauthorized copying or distribution of copyrighted material.
+A next-generation firewall (NGFW) can be used to detect and prevent copyright infringement by analyzing network traffic and blocking unauthorized transfers of copyrighted material. Additionally, NGFWs can be configured to enforce access control policies that prevent unauthorized access to sensitive resources. References:
+ CompTIA Security+ Study Guide, Exam SY0-601, 4th Edition, Chapter 6
+
+
+NEW QUESTION 86
+- (Exam Topic 1)
+During a security assessment, a security finds a file with overly permissive permissions. Which of the following tools will allow the analyst to reduce the permission for the existing users and groups and remove the set-user-ID from the file?
+A. 1s
+B. chflags
+C. chmod
+D. lsof
+E. setuid
+Answer: C
+Explanation: 
+The chmod command is used to change the permissions of a file or directory. The analyst can use chmod to reduce the permissions for existing users and groups and remove the set-user-ID bit from the file. References:
+ CompTIA Security+ Study Guide Exam SY0-601, Chapter 6
+
+
+NEW QUESTION 90
+- (Exam Topic 1)
+Which of the following would MOST likely be identified by a credentialed scan but would be missed by an uncredentialed scan?
+A. Vulnerabilities with a CVSS score greater than 6.9.
+B. Critical infrastructure vulnerabilities on non-IP protocols.
+C. CVEs related to non-Microsoft systems such as printers and switches.
+D. Missing patches for third-party software on Windows workstations and servers.
+Answer: D
+Explanation: 
+An uncredentialed scan would miss missing patches for third-party software on Windows workstations and servers. A credentialed scan, however, can scan the registry and file system to determine the patch level of third-party applications. References: CompTIA Security+ Study Guide by Emmett Dulaney, Chapter 4: Identity and Access Management, The Importance of Credentialing Scans
+
+
+NEW QUESTION 92
+- (Exam Topic 1)
+During an incident, a company's CIRT determines it is necessary to observe the continued network-based transactions between a callback domain and the malware running on an enterprise PC. Which of the following techniques would be BEST to enable this activity while reducing the nsk of lateral spread and the risk that the adversary would notice any changes?
+A. Physically move the PC to a separate Internet point of presence.
+B. Create and apply microsegmentation rules,
+C. Emulate the malware in a heavily monitored DMZ segment
+D. Apply network blacklisting rules for the adversary domain
+Answer: C
+Explanation: 
+Emulating the malware in a heavily monitored DMZ segment is the best option for observing network-based transactions between a callback domain and the malware running on an enterprise PC. This approach provides an isolated environment for the malware to run, reducing the risk of lateral spread and detection by the adversary. Additionally, the DMZ can be monitored closely to gather intelligence on the adversary's tactics and techniques. References: CompTIA Security+ Study Guide, page 129
+
+
+NEW QUESTION 95
+- (Exam Topic 1)
+Which of the following describes a maintenance metric that measures the average time required to troubleshoot and restore failed equipment?
+A. RTO
+B. MTBF
+C. MTTR
+D. RPO
+Answer: C
+Explanation: 
+Mean Time To Repair (MTTR) is a maintenance metric that measures the average time required to troubleshoot and restore failed equipment. References: CompTIA Security+ Certification Exam Objectives 4.6 Explain the importance of secure coding practices. Study Guide: Chapter 7, page 323.
+
+
+NEW QUESTION 98
+- (Exam Topic 1)
+A company is required to continue using legacy software to support a critical service. Which of the following BEST explains a risk of this practice?
+A. Default system configuration
+B. Unsecure protocols
+C. Lack of vendor support
+D. Weak encryption
+Answer: C Explanation: 
+Using legacy software to support a critical service poses a risk due to lack of vendor support. Legacy software is often outdated and unsupported, which means that security patches and upgrades are no longer available. This can leave the system vulnerable to exploitation by attackers who may exploit known vulnerabilities in the software to gain unauthorized access to the system.
+Reference: CompTIA Security+ Study Guide, Exam SY0-601, Chapter 1: Attacks, Threats, and Vulnerabilities
+
+
+NEW QUESTION 101
+- (Exam Topic 1)
+A dynamic application vulnerability scan identified code injection could be performed using a web form. Which of the following will be BEST remediation to prevent this vulnerability?
+A. Implement input validations
+B. Deploy MFA
+C. Utilize a WAF
+D. Configure HIPS
+Answer: A
+Explanation: 
+Implementing input validations will prevent code injection attacks by verifying the type and format of user input. References: CompTIA Security+ Study Guide:
+Exam SY0-601, Chapter 8
+
+
+NEW QUESTION 102
+- (Exam Topic 1)
+Which of the following BEST describes a social-engineering attack that relies on an executive at a small business visiting a fake banking website where credit card and account details are harvested?
+A. Whaling
+B. Spam
+C. Invoice scam
+D. Pharming
+Answer: A
+Explanation: 
+A social engineering attack that relies on an executive at a small business visiting a fake banking website where credit card and account details are harvested is known as whaling. Whaling is a type of phishing attack that targets high-profile individuals, such as executives, to steal sensitive information or gain access to their accounts.
+
+
+NEW QUESTION 105
+- (Exam Topic 1)
+A security analyst has been tasked with creating a new WiFi network for the company. The requirements received by the analyst are as follows:
+•Must be able to differentiate between users connected to WiFi
+•The encryption keys need to change routinely without interrupting the users or forcing reauthentication
+•Must be able to integrate with RADIUS
+•Must not have any open SSIDs
+Which of the following options BEST accommodates these requirements?
+A. WPA2-Enterprise
+B. WPA3-PSK
+C. 802.11nD. WPS
+Answer: A
+Explanation: 
+Detailed
+WPA2-Enterprise can accommodate all of the requirements listed. WPA2-Enterprise uses 802.1X authentication to differentiate between users, supports the use of RADIUS for authentication, and allows for the use of dynamic encryption keys that can be changed without disrupting the users or requiring reauthentication. Additionally, WPA2-Enterprise does not allow for open SSIDs.
+References: CompTIA Security+ Study Guide: Exam SY0-601, Chapter 7: Securing Networks, p. 317
+
+
+NEW QUESTION 110
+- (Exam Topic 1)
+A security analyst is investigating a phishing email that contains a malicious document directed to the company's Chief Executive Officer (CEO). Which of the following should the analyst perform to understand the threat and retrieve possible IoCs?
+A. Run a vulnerability scan against the CEOs computer to find possible vulnerabilities
+B. Install a sandbox to run the malicious payload in a safe environment
+C. Perform a traceroute to identify the communication path
+D. Use netstat to check whether communication has been made with a remote host
+Answer: B
+Explanation: 
+To understand the threat and retrieve possible Indicators of Compromise (IoCs) from a phishing email containing a malicious document, a security analyst should install a sandbox to run the malicious payload in a safe environment. References: CompTIA Security+ Certification Exam Objectives - 2.5 Given a scenario, analyze potential indicators to determine the type of attack. Study Guide: Chapter 5, page 209.
+
+
+NEW QUESTION 112
+- (Exam Topic 1)
+Which of the following would be BEST for a technician to review to determine the total risk an organization can bear when assessing a "cloud-first" adoption strategy?
+A. Risk matrix
+B. Risk tolerance
+C. Risk register
+D. Risk appetite
+Answer: B
+Explanation: 
+To determine the total risk an organization can bear, a technician should review the organization's risk tolerance, which is the amount of risk the organization is willing to accept. This information will help determine the organization's "cloud-first" adoption strategy. References: CompTIA Security+ Certification Exam Objectives (SY0-601)
+
+
+NEW QUESTION 114
+- (Exam Topic 1)
+A user attempts to load a web-based application, but the expected login screen does not appear A help desk analyst troubleshoots the issue by running the following command and reviewing the output on the user's PC
+
+The help desk analyst then runs the same command on the local PC
+
+Which of the following BEST describes the attack that is being detected?
+A. Domain hijacking
+B. DNS poisoning
+C. MAC flooding
+D. Evil twin
+Answer: B
+Explanation: 
+DNS poisoning, also known as DNS spoofing or DNS cache poisoning, is a form of computer security hacking in which corrupt Domain Name System (DNS) data is introduced into the DNS resolver's cache, causing the name server to return an incorrect result record, such as an IP address. This results in traffic being diverted to the attacker's computer (or any other malicious destination).
+DNS poisoning can be performed by various methods, such as:
+ Intercepting and forging DNS responses from legitimate servers
+ Compromising DNS servers and altering their records
+ Exploiting vulnerabilities in DNS protocols or implementations
+ Sending malicious emails or links that trigger DNS queries with poisoned responses According to CompTIA Security+ SY0-601 Exam Objectives 1.4 Given a scenario, analyze potential indicators to determine the type of attack:
+"DNS poisoning, also known as DNS spoofing or DNS cache poisoning, is a form of computer security hacking in which corrupt Domain Name System (DNS) data is introduced into the DNS resolver's cache, causing the name server to return an incorrect result record."
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://www.cloudflare.com/learning/dns/dns-cache-poisoning/
+
+
+NEW QUESTION 116
+- (Exam Topic 1)
+The Chief Information Security Officer (CISO) has decided to reorganize security staff to concentrate on incident response and to outsource outbound Internet URL categorization and filtering to an outside company. Additionally, the CISO would like this solution to provide the same protections even when a company laptop or mobile device is away from a home office. Which of the following should the CISO choose?
+A. CASB
+B. Next-generation SWG
+C. NGFW
+D. Web-application firewall
+Answer: B
+Explanation: 
+The solution that the CISO should choose is Next-generation Secure Web Gateway (SWG), which provides URL filtering and categorization to prevent users from accessing malicious sites, even when they are away from the office. NGFWs are typically cloud-based and offer multiple security layers, including malware detection, intrusion prevention, and data loss prevention. References: CompTIA Security+ Study Guide Exam SY0-601, Chapter 4
+
+
+NEW QUESTION 121
+- (Exam Topic 1)
+A security incident has been resolved Which of the following BEST describes the importance of the final phase of the incident response plan?
+A. It examines and documents how well the team responded discovers what caused the incident, and determines how the incident can be avoided in the future
+B. It returns the affected systems back into production once systems have been fully patched, data restored and vulnerabilities addressed
+C. It identifies the incident and the scope of the breach how it affects the production environment, and the ingress point
+D. It contains the affected systems and disconnects them from the network, preventing further spread of the attack or breachAnswer: A
+Explanation: 
+The final phase of an incident response plan is the post-incident activity, which involves examining and documenting how well the team responded, discovering what caused the incident, and determining how the incident can be avoided in the future. References: CompTIA Security+ Certification Exam Objectives - 2.5 Given a scenario, analyze potential indicators to determine the type of attack. Study Guide: Chapter 5, page 225.
+
+
+NEW QUESTION 122
+- (Exam Topic 1)
+A security analyst has received several reports of an issue on an internal web application. Users state they are having to provide their credentials twice to log in. The analyst checks with the application team and notes this is not an expected behavior. After looking at several logs, the analyst decides to run some commands on the gateway and obtains the following output:
+
+Which of the following BEST describes the attack the company is experiencing?
+A. MAC flooding
+B. URL redirection
+C. ARP poisoning
+D. DNS hijacking
+Answer: C
+Explanation: 
+The output of the "netstat -ano" command shows that there are two connections to the same IP address and port number. This indicates that there are two active sessions between the client and server.
+The issue of users having to provide their credentials twice to log in is known as a double login prompt issue. This issue can occur due to various reasons such as incorrect configuration of authentication settings, incorrect configuration of web server settings, or issues with the client's browser.
+Based on the output of the "netstat -ano" command, it is difficult to determine the exact cause of the issue. However, it is possible that an attacker is intercepting traffic between the client and server and stealing user credentials. This type of attack is known as C. ARP poisoning.
+ARP poisoning is a type of attack where an attacker sends fake ARP messages to associate their MAC address with the IP address of another device on the network. This allows them to intercept traffic between the two devices and steal sensitive information such as user credentials.
+
+
+NEW QUESTION 123
+- (Exam Topic 1)
+An organization would like to remediate the risk associated with its cloud service provider not meeting its advertised 99.999% availability metrics. Which of the following should the organization consult for the exact requirements for the cloud provider?
+A. SLA
+B. BPA
+C. NDA
+D. MOU
+Answer: A
+Explanation: 
+The Service Level Agreement (SLA) is a contract between the cloud service provider and the organization that stipulates the exact requirements for the cloud provider. It outlines the level of service that the provider must deliver, including the minimum uptime percentage, support response times, and the remedies and penalties for failing to meet the agreed-upon service levels.
+
+
+NEW QUESTION 127
+- (Exam Topic 1)
+Which of the following controls would provide the BEST protection against tailgating?
+A. Access control vestibule
+B. Closed-circuit television
+C. Proximity card reader
+D. Faraday cage
+Answer: A
+Explanation: 
+Access control vestibules, also known as mantraps or airlocks, are physical security features that require individuals to pass through two or more doors to enter a secure area. They are effective at preventing tailgating, as only one person can pass through each door at a time.
+References:
+ https://www.comptia.org/content/guides/what-is-a-mantrap
+ CompTIA Security+ Study Guide, Sixth Edition (SY0-601), page 222
+
+
+NEW QUESTION 130
+- (Exam Topic 1)
+Which of the following authentication methods sends out a unique password to be used within a specific number of seconds?
+A. TOTP
+B. Biometrics
+C. Kerberos
+D. LDAP
+Answer: A
+Explanation: 
+Time-based One-Time Password (TOTP) is a type of authentication method that sends out a unique password to be used within a specific number of seconds. It uses a combination of a shared secret key and the current time to generate a one-time password. TOTP is commonly used for two-factor authentication (2FA) to provide an additional layer of security beyond just a username and password.
+
+
+NEW QUESTION 135
+- (Exam Topic 1)
+A security analyst reports a company policy violation in a case in which a large amount of sensitive data is being downloaded after hours from various mobile devices to an external site. Upon further investigation, the analyst notices that successful login attempts are being conducted with impossible travel times during the same time periods when the unauthorized downloads are occurring. The analyst also discovers a couple of WAPs are using the same SSID, but they have nonstandard DHCP configurations and an overlapping channel. Which of the following attacks is being conducted?
+A. Evil twin
+B. Jamming
+C. DNS poisoning
+D. Bluesnarfing
+E. DDoS
+Answer: A
+Explanation: 
+The attack being conducted is an Evil twin attack. An Evil twin attack involves creating a rogue wireless access point (WAP) with the same Service Set Identifier (SSID) as a legitimate WAP to trick users into connecting to it. Once connected, the attacker can intercept traffic or steal login credentials. The successful login attempts with impossible travel times suggest that an attacker is using a stolen or compromised credential to access the external site to which the sensitive data is being downloaded. The non-standard DHCP configurations and overlapping channels of the WAPs suggest that the attacker is using a rogue WAP to intercept traffic. References: CompTIA Security+ Certification Exam Objectives, Exam Domain 1.0: Attacks, Threats, and Vulnerabilities, 1.4 Compare and contrast types of attacks, p. 8
+
+
+NEW QUESTION 137
+- (Exam Topic 1)
+An enterprise has hired an outside security firm to facilitate penetration testing on its network and applications. The firm has agreed to pay for each vulnerability that ts discovered. Which of the following BEST represents the type of testing that is being used?
+A. White-box
+B. Red-leam
+C. Bug bounty
+D. Gray-box
+E. Black-box
+Answer: C
+Explanation: 
+Bug bounty is a type of testing in which an organization offers a reward or compensation to anyone who can identify vulnerabilities or security flaws in their network or applications. The outside security firm has agreed to pay for each vulnerability found, which is an example of a bug bounty program.
+
+
+NEW QUESTION 138
+- (Exam Topic 2)
+A Chief Information Security Officer (CISO) wants to explicitly raise awareness about the increase of ransomware-as-a-service in a report to the management team. Which of the following best describes the threat actor in the CISO's report?
+A. Insider threat
+B. Hacktivist
+C. Nation-state
+D. Organized crime
+Answer: D
+Explanation: 
+Organized crime is a term that describes groups of criminals who operate in a coordinated and systematic manner to pursue illicit activities for profit. Organized crime groups often use sophisticated tools and techniques to evade law enforcement and exploit vulnerabilities in various sectors, such as finance, transportation, or healthcare. Organized crime groups may also collaborate with other criminal groups or actors to share resources, information, or expertise. Ransomware as a service (RaaS) is an example of a business model used by organized crime groups to conduct ransomware and extortion attacks. RaaS is an arrangement between an operator, who develops and maintains the tools to power extortion operations, and an affiliate, who deploys the ransomware payload. When the affiliate conducts a successful ransomware and extortion attack, both parties profit. The RaaS model lowers the barrier to entry for attackers who may not have the skill or technical wherewithal to develop their own tools but can manage ready-made penetration testing and sysadmin tools to perform attacks12. Insider threat is a term that describes individuals who have legitimate access to an organization's systems or data and use it for malicious purposes, such as theft, sabotage, or espionage. Insider threats may be motivated by various factors, such as greed, revenge, ideology, or coercion. Insider threats may also be unintentional, such as when an employee falls victim to phishing or social engineering.
+Hacktivist is a term that describes individuals or groups who use hacking or cyberattacks to promote a political or social cause. Hacktivists may target governments, corporations, or other entities that they perceive as oppressive, corrupt, or unethical. Hacktivists may also use cyberattacks to expose information, disrupt services, or deface websites.
+Nation-state is a term that describes a sovereign state that has a centralized government and a defined territory. Nation-state actors are individuals or groups who conduct cyberattacks on behalf of or with the support of a nation-state. Nation-state actors may target other states, organizations, or individuals for various reasons, such as espionage, sabotage, influence, or retaliation.
+
+
+NEW QUESTION 140
+- (Exam Topic 2)
+Which of the following can reduce vulnerabilities by avoiding code reuse?
+A. Memory management
+B. Stored procedures
+C. Normalization
+D. Code obfuscation
+Answer: A
+Explanation: 
+Memory management is a technique that can allocate and deallocate memory for applications and processes. Memory management can reduce vulnerabilities by avoiding code reuse, which is a technique that exploits a memory corruption vulnerability to execute malicious code that already exists in memory. Memory management can prevent code reuse by implementing features such as address space layout randomization (ASLR), data execution prevention (DEP), or stack canaries.
+
+
+NEW QUESTION 144
+- (Exam Topic 2)
+Which of the following procedures would be performed after the root cause of a security incident has been identified to help avoid future incidents from occurring?
+A. Walk-throughs
+B. Lessons learned
+C. Attack framework alignment
+D. Containment
+Answer: B
+Explanation: 
+After the root cause of a security incident has been identified, it is important to take the time to analyze what went wrong and how it could have been prevented. This process is known as "lessons learned" and allows organizations to identify potential improvements to their security processes and protocols. Lessons learned typically involve a review of the incident and the steps taken to address it, a review of the security systems and procedures in place, and an analysis of any potential changes that can be made to prevent similar incidents from occurring in the future.
+
+
+NEW QUESTION 145
+- (Exam Topic 2)
+A company recently experienced a significant data loss when proprietary information was leaked to a competitor. The company took special precautions by using proper labels; however, email filter logs do not have any record of the incident. An investigation confirmed the corporate network was not breached, but documents were downloaded from an employee's COPE tablet and passed to the competitor via cloud storage. Which of the following is the best mitigation strategy to prevent this from happening in the future?
+A. User training
+B. CAsB
+C. MDM
+D. EDR
+Answer: C
+Explanation: 
+MDM stands for mobile device management, which is a solution that allows organizations to manage and secure mobile devices used by employees. MDM can help prevent data loss and leakage by enforcing policies and restrictions on the devices, such as encryption, password, app installation, remote wipe, and so on. MDM can also monitor and audit the device activity and compliance status. MDM can be the best mitigation strategy to prevent data leakage from an employee's COPE tablet via cloud storage, as it can block or limit the access to cloud services, or apply data protection measures such as containerization or encryption. References:
+ https://www.blackberry.com/us/en/solutions/corporate-owned-personally-enabled
+ https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/mobile-device-management/
+
+
+NEW QUESTION 149
+- (Exam Topic 2)
+An attacker was eavesdropping on a user who was shopping online. The attacker was able to spoof the IP address associated with the shopping site. Later, the user received an email regarding credit card statement with unusual purchases. Which of the following attacks took place?
+A. On-path attack
+B. Protocol poisoning
+C. Domain hijacking
+D. Bluejacking
+Answer: A
+Explanation: 
+An on-path attack is an attack that took place when an attacker was eavesdropping on a user who was shopping online and was able to spoof the IP address associated with the shopping site. An on-path attack is a type of network attack that involves intercepting or modifying traffic between two parties by placing oneself in the communication path. An on-path attack can also be called a man-in-the-middle attack or a session hijacking attack. An on-path attacker can steal sensitive information, such as credit card details, or redirect the user to a malicious website. References: https://www.comptia.org/blog/what-is-a-man-in-the-middleattack
+https://www.certblaster.com/wp-content/uploads/2020/11/CompTIA-Security-SY0-601-Exam-Objectives-1.0.pd
+
+
+NEW QUESTION 151
+- (Exam Topic 2)
+A security administrator performs weekly vulnerability scans on all cloud assets and provides a detailed report. Which of the following describes the administrator's activities?
+A. Continuous deployment
+B. Continuous integration
+C. Continuous validation
+D. Continuous monitoring
+Answer: C
+Explanation: 
+Continuous validation is a process that involves performing regular and automated tests to verify the security and functionality of a system or an application. Continuous validation can help identify and remediate vulnerabilities, bugs, or misconfigurations before they cause any damage or disruption. The security administrator's activities of performing weekly vulnerability scans on all cloud assets and providing a detailed report are examples of continuous validation.
+
+
+NEW QUESTION 156
+- (Exam Topic 2)
+Which of the following would satisfy three-factor authentication requirements?
+A. Password, PIN, and physical token
+B. PIN, fingerprint scan, and ins scan
+C. Password, fingerprint scan, and physical token
+D. PIN, physical token, and ID card
+Answer: C
+Explanation: 
+Three-factor authentication combines three types of authentication methods: something you know (password), something you have (physical token), and something you are (fingerprint scan). Option C satisfies these requirements, as it uses a password (something you know), a physical token (something you have), and a fingerprint scan (something you are) for authentication.
+Reference: CompTIA Security+ Study Guide (SY0-601) 7th Edition by Emmett Dulaney, Chuck Easttom Note: There could be other options as well that could satisfy the three-factor authentication requirements as per the organization's security policies.
+
+
+NEW QUESTION 160
+- (Exam Topic 2)
+An organization has hired a security analyst to perform a penetration test The analyst captures 1Gb worth of inbound network traffic to the server and transfers the pcap back to the machine for analysis. Which of the following tools should the analyst use to further review the pcap?
+A. Nmap
+B. CURL
+C. Neat
+D. Wireshark
+Answer: D
+Explanation: 
+Wireshark is a tool that can analyze pcap files, which are files that capture network traffic. Wireshark can display the packets, protocols, and other details of the network traffic in a graphical user interface. Nmap is a tool that can scan networks and hosts for open ports and services. CURL is a tool that can transfer data from or to a server using various protocols. Neat is a tool that can test network performance and quality.
+
+
+NEW QUESTION 161
+- (Exam Topic 2)
+Which of the following would be most effective to contain a rapidly spreading attack that is affecting a large number of organizations?
+A. Machine learning
+B. DNS sinkhole
+C. Blocklist
+D. Honey pot
+Answer: B
+Explanation: 
+A DNS sinkhole would be most effective to contain a rapidly spreading attack that is affecting a large number of organizations. A DNS sinkhole is a technique that involves redirecting malicious or unwanted domain names to an alternative IP address, such as a black hole, a honeypot, or a warning page. A DNS sinkhole can help to prevent or disrupt the communication between infected systems and command-and-control servers, malware distribution sites, phishing sites, or botnets. A DNS sinkhole can also help to identify and isolate infected systems by monitoring the traffic to the sinkhole IP address. References: https://www.comptia.org/blog/what-is-a-dns-sinkhole https://www.certblaster.com/wp-content/uploads/2020/11/CompTIA-Security-SY0-601-Exam-Objectives-1.0.pd
+
+
+NEW QUESTION 166
+- (Exam Topic 2)
+A security analyst is investigating network issues between a workstation and a company server. The workstation and server occasionally experience service disruptions, and employees are forced to reconnect to the server. In addition, some reports indicate sensitive information is being leaked from the server to the public.
+The workstation IP address is 192.168.1.103, and the server IP address is 192.168.1.101. The analyst runs arp -a On a separate workstation and obtains the following results:
+
+Which of the following is most likely occurring?
+A. Evil twin attack
+B. Domain hijacking attack
+C. On-path attack
+D. MAC flooding attack
+Answer: C
+Explanation: 
+An on-path attack is a type of attack where an attacker places themselves between two devices (such as a workstation and a server) and intercepts or modifies the communications between them. An on-path attacker can collect sensitive information, impersonate either device, or disrupt the service. In this scenario, the attacker is likely using an on-path attack to capture and alter the network traffic between the workstation and the server, causing service disruptions and data leakage.
+
+
+NEW QUESTION 169
+- (Exam Topic 2)
+A company is focused on reducing risks from removable media threats. Due to certain primary applications, removable media cannot be entirely prohibited at this time. Which of the following best describes the company's approach?
+A. Compensating controls
+B. Directive control
+C. Mitigating controls
+D. Physical security controls
+Answer: C
+Explanation: 
+Mitigating controls are designed to reduce the impact or severity of an event that has occurred or is likely to occur. They do not prevent or detect the event, but rather limit the damage or consequences of it. For example, a backup system is a mitigating control that can help restore data after a loss or corruption. In this case, the company is focused on reducing risks from removable media threats, which are threats that can compromise data security, introduce malware infections, or cause media failure123. Removable media threats can be used to bypass network defenses and target industrial/OT environments2. The company cannot prohibit removable media entirely because of certain primary applications that require them, so it implements mitigating controls to lessen the potential harm from these threats.
+Some examples of mitigating controls for removable media threats are:
+ Encrypting data on removable media
+ Scanning removable media for malware before use
+ Restricting access to removable media ports
+ Implementing policies and procedures for removable media usage and disposal  Educating users on the risks and best practices of removable media
+
+
+NEW QUESTION 173
+- (Exam Topic 2)
+A small, local company experienced a ransomware attack. The company has one web-facing server and a few workstations. Everything is behind an ISP firewall. A single web-facing server is set up on the router to forward all ports so that the server is viewable from the internet. The company uses an older version of thirdparty software to manage the website. The assets were never patched. Which of the following should be done to prevent an attack like this from happening again? (Select three).
+A. Install DLP software to prevent data loss.
+B. Use the latest version of software.
+C. Install a SIEM device.
+D. Implement MDM.
+E. Implement a screened subnet for the web server.
+F. Install an endpoint security solution.
+G. Update the website certificate and revoke the existing ones.
+H. Deploy additional network sensors.
+Answer: BEF
+NEW QUESTION 177
+- (Exam Topic 2)
+A security analyst receives alerts about an internal system sending a large amount of unusual DNS queries to systems on the internet over short periods of time during non-business hours. Which of the following is most likely occurring?
+A. A worm is propagating across the network.
+B. Data is being exfiltrated.
+C. A logic bomb is deleting data.
+D. Ransomware is encrypting files.
+Answer: B
+Explanation: 
+Data is being exfiltrated when an internal system is sending a large amount of unusual DNS queries to systems on the internet over short periods of time during non-business hours. Data exfiltration is the unauthorized transfer of data from a system or network to an external destination or actor. Data exfiltration can be performed by malicious insiders or external attackers who have compromised the system or network. DNS queries are requests for resolving domain names to IP addresses. DNS queries can be used as a covert channel for data exfiltration by encoding data in the domain names or subdomains and sending them to a malicious DNS server that can decode and collect the data. References:
+https://www.comptia.org/blog/what-is-data-exfiltration
+https://www.certblaster.com/wp-content/uploads/2020/11/CompTIA-Security-SY0-601-Exam-Objectives-1.0.pd
+
+
+NEW QUESTION 179
+- (Exam Topic 2)
+Which Of the following best ensures minimal downtime for organizations vÄh crit-ical computing equipment located in earthquake-prone areas?
+A. Generators and UPS
+B. Off-site replication
+C. Additional warm site
+D. Local
+Answer: B
+Explanation: 
+Off-site replication is a process of copying and storing data in a remote location that is geographically separate from the primary site. It can ensure minimal downtime for organizations with critical computing equipment located in earthquake-prone areas by providing a backup copy of data that can be accessed and restored in case of a disaster or disruption at the primary site.
+
+
+NEW QUESTION 184
+- (Exam Topic 2)
+The Chief Executive Officer (CEO) of an organization would like staff members to have the flexibility to work from home anytime during business hours, including during a pandemic or crisis. However, the CEO is concerned that some staff members may take advantage of the flexibility and work from high-risk countries while on holiday or outsource work to a third-party organization in another country. The Chief Information Officer believes the company can implement some basic controls to mitigate the majority of the risk. Which of the following would be best to mitigate the CEO's concerns? (Select two).
+A. Geolocation
+B. Time-of-day restrictions
+C. Certificates
+D. Tokens
+E. Geotagging
+F. Role-based access controls
+Answer: AB
+Explanation: 
+Geolocation and time-of-day restrictions would be best to mitigate the CEO's concerns about staff members working from high-risk countries while on holiday or outsourcing work to a third-party organization in another country. Geolocation is a technique that involves determining the physical location of a device or user based on its IP address, GPS coordinates, Wi-Fi signals, or other indicators. Time-of-day restrictions are policies that limit the access or usage of resources based on the time of day or week. Geolocation and time-of-day restrictions can help to enforce access control rules, prevent unauthorized access, detect anomalous behavior, and comply with regulations. References: https://www.comptia.org/blog/what-is-geolocation https://www.certblaster.com/wp-content/uploads/2020/11/CompTIA-Security-SY0-601-Exam-Objectives-1.0.pd
+
+
+NEW QUESTION 186
+- (Exam Topic 2)
+A security analyst is creating baselines for the server team to follow when hardening new devices for deployment. Which of the following best describes what the analyst is creating?
+A. Change management procedure
+B. Information security policy
+C. Cybersecurity framework
+D. Secure configuration guide
+Answer: D
+Explanation: 
+A secure configuration guide is a document that provides an overview of the security features and best practices for a specific product, system, or application. A secure configuration guide helps to reduce unnecessary cyber vulnerabilities and enhance overall security by applying consistent and standardized settings and policies. A security analyst can create baselines for the server team to follow when hardening new devices for deployment based on a secure configuration guide.
+* A. Change management procedure. This is not the correct answer, because a change management procedure is a document that describes the steps andprocesses for implementing, reviewing, and approving changes to an IT system or environment. A change management procedure helps to minimize the risks and impacts of changes on the system performance, availability, and security.
+* B. Information security policy. This is not the correct answer, because an information security policy is a document that defines the rules and principles forprotecting the confidentiality, integrity, and availability of information assets within an organization. An information security policy helps to establish the roles and responsibilities of employees, managers, and stakeholders regarding information security.
+* C. Cybersecurity framework. This is not the correct answer, because a cybersecurity framework is a document that provides a set of standards, guidelines, andbest practices for managing cybersecurity risks and improving resilience. A cybersecurity framework helps to align the business objectives and priorities with the security requirements and capabilities.
+* D. Secure configuration guide. This is the correct answer, because a secure configuration guide is a document that provides an overview of the security featuresand best practices for a specific product, system, or application. A secure configuration guide helps to reduce unnecessary cyber vulnerabilities and enhance overall security by applying consistent and standardized settings and policies.
+Reference: Secure Configuration Guide, Security Technical Implementation Guide - Wikipedia.
+
+
+NEW QUESTION 190
+- (Exam Topic 2)
+A user enters a password to log in to a workstation and is then prompted to enter an authentication code Which of the following MFA factors or attributes are being utilized in the authentication process? {Select two).
+A. Something you know
+B. Something you have
+C. Somewhere you are
+D. Someone you know
+E. Something you are
+F. Something you can do
+Answer: AB
+Explanation: 
+MFA (Multi-Factor Authentication) is a method of verifying a user's identity by requiring two or more factors or attributes that belong to different categories. The categories are something you know (such as a password or a PIN), something you have (such as a token or a smart card), something you are (such as a fingerprint or an iris scan), something you do (such as a gesture or a voice command), and somewhere you are (such as a location or an IP address). In this case, the user enters a password (something you know) and then receives an authentication code (something you have) to log in to a workstation.
+
+
+NEW QUESTION 193
+- (Exam Topic 2)
+A new security engineer has started hardening systems. One o( the hardening techniques the engineer is using involves disabling remote logins to the NAS. Users are now reporting the inability lo use SCP to transfer files to the NAS, even though the data is still viewable from the users' PCs. Which of the following is the MOST likely cause of this issue?
+A. TFTP was disabled on the local hosts.
+B. SSH was turned off instead of modifying the configuration file.
+C. Remote login was disabled in the networkd.conf instead of using the ssh
+D. conf.
+E. Network services are no longer running on the NAS
+Answer: B
+Explanation: 
+SSH is used to securely transfer files to the remote server and is required for SCP to work. Disabling SSH will prevent users from being able to use SCP to transfer files to the server. To enable SSH, the security engineer should modify the SSH configuration file (sshd.conf) and make sure that SSH is enabled. For more information on hardening systems and the security techniques that can be used, refer to the CompTIA Security+ SY0-601 Official Text Book and Resources.
+
+
+NEW QUESTION 195
+- (Exam Topic 2)
+An attacker is using a method to hide data inside of benign files in order to exfiltrate confidential data. Which of the following is the attacker most likely using?
+A. Base64 encoding
+B. Steganography
+C. Data encryption
+D. Perfect forward secrecy
+Answer: B
+Explanation: 
+Steganography is a technique for hiding data inside of benign files such as images, audio, or video. This can be used to exfiltrate confidential data without raising suspicion or detection.
+References: How to Hide Files Inside Files [Images, Folder] - Raymond.CC Blog; How to Hide Data in a Secret Text File Compartment - How-To Geek; How to Hide Data Within an Image - Medium
+
+
+NEW QUESTION 196
+- (Exam Topic 2)
+An organization is outlining data stewardship roles and responsibilities. Which of the following employee roles would determine the purpose of data and how to process it?
+A. Data custodian
+B. Data controller
+C. Data protection officer
+D. Data processor
+Answer: B
+Explanation: 
+A data controller is an employee role that would determine the purpose of data and how to process it. A data controller is a person or entity that decides why and how personal data is collected, used, stored, shared, or deleted. A data controller has the responsibility to comply with data protection laws and regulations, such as the General Data Protection Regulation (GDPR), and to ensure the rights and privacy of data subjects. References: https://www.comptia.org/blog/what-is-a-data-controller
+https://www.certblaster.com/wp-content/uploads/2020/11/CompTIA-Security-SY0-601-Exam-Objectives-1.0.pd
+
+
+NEW QUESTION 201
+- (Exam Topic 2)
+An air traffic controller receives a change in flight plan for an morning aircraft over the phone. The air traffic controller compares the change to what appears on radar and determines the information to be false. As a result, the air traffic controller is able to prevent an incident from occurring. Which of the following is this scenario an example of?
+A. Mobile hijacking
+B. Vishing
+C. Unsecure VoIP protocols
+D. SPIM attack
+Answer: B
+Explanation: 
+Vishing is a form of phishing that uses voice calls or voice messages to trick victims into revealing personal information, such as credit card numbers, bank details, or passwords. Vishing often uses spoofed phone numbers, voice-altering software, or social engineering techniques to impersonate legitimate organizations or authorities. In this scenario, the caller pretended to be someone who could change the flight plan of an aircraft, which could have caused a serious incident.
+
+
+NEW QUESTION 204
+- (Exam Topic 2)
+A company recently suffered a breach in which an attacker was able to access the internal mail servers and directly access several user inboxes. A large number of email messages were later posted online. Which of the following would bast prevent email contents from being released should another breach occur?
+A. Implement S/MIME to encrypt the emails at rest.
+B. Enable full disk encryption on the mail servers.
+C. Use digital certificates when accessing email via the web.
+D. Configure web traffic to only use TLS-enabled channels.
+Answer: A
+Explanation: 
+S/MIME stands for Secure/Multipurpose Internet Mail Extensions, which is a standard for encrypting and digitally signing email messages. S/MIME can provide confidentiality, integrity, authentication and non-repudiation for email communications. S/MIME can encrypt the emails at rest, which means that the email contents are protected even if they are stored on the mail servers or the user inboxes. S/MIME can prevent email contents from being released should another breach occur, as the attacker would not be able to decrypt or read the encrypted emails without the proper keys or certificates. Verified References:
+• Cryptography Concepts - SY0-601 CompTIA Security+ : 2.8 https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/cryptography-concepts-2/
+(See
+S/MIME)
+• Mail Encryption - CompTIA Security+ All-in-One Exam Guide (Exam SY0-301) https://www.oreilly.com/library/view/comptia-security-all-in-one/9780071771474/sec5_chap14.html (See S/MIME)
+• Symmetric and Asymmetric Encryption - CompTIA Security+ SY0-501 - 6.1 https://www.professormesser.com/security-plus/sy0-501/symmetric-and-asymmetric-encryption/ (See S/MIME)
+
+
+NEW QUESTION 208
+- (Exam Topic 2)
+A company's help desk has received calls about the wireless network being down and users being unable to connect to it The network administrator says all access points are up and running One of the help desk technicians notices the affected users are working in a building near the parking lot. Which of the following is the most likely reason for the outage?
+A. Someone near the building is jamming the signal
+B. A user has set up a rogue access point near the building
+C. Someone set up an evil twin access point in the affected area.
+D. The APs in the affected area have been unplugged from the network
+Answer: A
+Explanation: 
+Jamming is a type of denial-of-service attack that involves interfering with or blocking the wireless signal using a device that emits radio waves at the same frequency as the wireless network. It can cause the wireless network to be down and users to be unable to connect to it, especially if they are working in a building near the parking lot where someone could easily place a jamming device.
+
+
+NEW QUESTION 213
+- (Exam Topic 2)
+Which of the following would help ensure a security analyst is able to accurately measure the overall risk to an organization when a new vulnerability is disclosed?
+A. A full inventory of all hardware and software
+B. Documentation of system classifications
+C. A list of system owners and their departments
+D. Third-party risk assessment documentation
+Answer: A
+Explanation: 
+A full inventory of all hardware and software would help ensure a security analyst is able to accurately measure the overall risk to an organization when a new vulnerability is disclosed, as it would allow the analyst to identify which systems and applications are affected by the vulnerability and prioritize the remediation efforts accordingly. A full inventory would also help the analyst to determine the impact and likelihood of a successful exploit, as well as the potential loss of confidentiality, integrity and availability of the data and services. References:
+ https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/risk-analysis/ https://www.comptia.org/landing/securityplus/index.html  https://www.comptia.org/blog/complete-guide-to-risk-management
+
+
+NEW QUESTION 216
+- (Exam Topic 2)
+A security analyst is investigating a report from a penetration test. During the penetration test, consultants were able to download sensitive data from a back-end server. The back-end server was exposing an API that should have only been available from the companVs mobile application. After reviewing the back-end server logs, the security analyst finds the following entries
+
+Which of the following is the most likely cause of the security control bypass?
+A. IP address allow list B. user-agent spoofing
+C. WAF bypass
+D. Referrer manipulation
+Answer: B
+Explanation: 
+User-agent spoofing is a technique that allows an attacker to modify the user-agent header of an HTTP request to impersonate another browser or device12. Useragent spoofing can be used to bypass security controls that rely on user-agent filtering or validation12. In this case, the attacker spoofed the user-agent header to match the company's mobile application, which was allowed to access the back-end server's API2.
+
+
+NEW QUESTION 220
+- (Exam Topic 2)
+A company is concerned about individuals driving a car into the building to gain access. Which of the following security controls would work BEST to prevent this from happening?
+A. Bollard
+B. Camera
+C. Alarms
+D. Signage
+E. Access control vestibule
+Answer: A
+Explanation: 
+Bollards are posts designed to prevent vehicles from entering an area. They are usually made of steel or concrete and are placed close together to make it difficult for vehicles to pass through. In addition to preventing vehicles from entering an area, bollards can also be used to protect buildings and pedestrians from ramming attacks. They are an effective and cost-efficient way to protect buildings and pedestrians from unauthorized access.
+
+
+NEW QUESTION 223
+- (Exam Topic 2)
+Which of the following processes would most likely help an organization that has conducted an incident response exercise to improve performance and identify challenges?
+A. Lessons learned
+B. Identification
+C. Simulation
+D. Containment
+Answer: A
+Explanation: 
+Lessons learned is a process that would most likely help an organization that has conducted an incident response exercise to improve performance and identify challenges. Lessons learned is a process that involves reviewing and evaluating the incident response exercise to identify what went well, what went wrong, and what can be improved. Lessons learned can help an organization enhance its incident response capabilities, address any gaps or weaknesses, and update its incident response plan accordingly.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901
+
+
+NEW QUESTION 226
+- (Exam Topic 2)
+A security analyst is reviewing SIEM logs during an ongoing attack and notices the following: http://company.com/get php? f=/etc/passwd
+http://company.com/..%2F. .42 F..42F.. $2Fetct2Fshadow http: //company.com/../../../ ../etc/passwd
+Which of the following best describes the type of attack?
+A. SQLi
+B. CSRF
+C. API attacks
+D. Directory traversal
+Answer: D
+Explanation: 
+Directory traversal (also known as file path traversal) is a web security vulnerability that allows an attacker to read arbitrary files on the server that is running an application. This might include application code and data, credentials for back-end systems, and sensitive operating system files1. In some cases, an attacker might be able to write to arbitrary files on the server, allowing them to modify application data or behavior, and ultimately take full control of the server1.
+Directory traversal in its simplest form uses the .../ pattern, which means to step up one level in the directory structure. By repeating this pattern, an attacker can traverse to the root directory and then access any file or folder on the server. For example, the following request attempts to read the Unix password file /etc/passwd from the server:
+http://company.com/get.php?f=/etc/passwd
+Some web applications may implement some defenses against directory traversal attacks, such as filtering out
+.../ patterns or percent-decoding the user input before validating it. However, these defenses can often be bypassed by using variations or encoding techniques. For example, the following requests use different ways to represent .../ or / characters: http://company.com/...%2F...%2F...%2Fetc%2Fpasswd
+http://company.com/.../.../.../%2Fetc%2Fpasswd http://company.com/%2E%2E/%2E%2E/%2E%2E/etc/passwd
+These requests may still result in directory traversal attacks if the web application does not properly handle them12.
+* A. SQLi. This is not the correct answer, because SQLi stands for SQL Injection, which is an attack that exploits a vulnerability in a web application's databaselayer, where malicious SQL statements are inserted into an entry field for execution3. The requests in the question do not contain any SQL statements or commands.
+* B. CSRF. This is not the correct answer, because CSRF stands for Cross-Site Request Forgery, which is an attack that exploits the trust a web server has in auser's browser, where malicious requests are sent to the web server using the user's credentials4. The requests in the question do not indicate that they are forged or sent by another website.
+* C. API attacks. This is not the correct answer, because API stands for Application Programming Interface, which is a set of rules and specifications that allowsoftware components to communicate and exchange data. API attacks are attacks that target the vulnerabilities or weaknesses of APIs, such as authentication, authorization, encryption, rate limiting, or input validation5. The requests in the question do not target any specific API functionality or feature.
+* D. Directory traversal. This is the correct answer, because directory traversal is an attack that exploits insufficient security validation or sanitization of user-supplied file names, such that characters representing "traverse to parent directory" are passed through to the operating system's file system API12. The requests in the question contain various patterns of .../ or / characters that attempt to access restricted files and directories on the server.
+Reference: What is directory traversal, and how to prevent it? - PortSwigger, Directory traversal attack - Wikipedia, What Is SQL Injection (SQLi) and How To Prevent It, What Is Cross-Site Request Forgery (CSRF)? | Acunetix, API Security Testing - How to Hack an API and Get Away with It (Part 1 of 3).
+
+
+NEW QUESTION 231
+- (Exam Topic 2)
+Unauthorized devices have been detected on the internal network. The devices' locations were traced to Ether ports located in conference rooms. Which of the following would be the best technical controls to implement to prevent these devices from accessing the internal network?
+A. NAC
+B. DLP
+C. IDS
+D. MFA
+Answer: A
+Explanation: 
+NAC stands for network access control, which is a security solution that enforces policies and controls on devices that attempt to access a network. NAC can help prevent unauthorized devices from accessing the internal network by verifying their identity, compliance, and security posture before granting them access. NAC can also monitor and restrict the activities of authorized devices based on predefined rules and roles.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://www.cisco.com/c/en/us/products/security/what-is-network-access-control-nac.html
+
+
+NEW QUESTION 235
+- (Exam Topic 2)
+Which of the following is most likely to contain ranked and ordered information on the likelihood and potential impact of catastrophic events that may affect business processes and systems, while also highlighting the residual risks that need to be managed after mitigating controls have been implemented?
+A. An RTO report
+B. A risk register
+C. A business impact analysis
+D. An asset value register
+E. A disaster recovery plan
+Answer: B
+Explanation: 
+A risk register is a document or a tool that records and tracks information about the identified risks and their analysis, such as likelihood, impact, priority, mitigation strategies, residual risks, etc. It can contain ranked and ordered information on the likelihood and potential impact of catastrophic events that may affect business processes and systems, while also highlighting the residual risks that need to be managed after mitigating controls have been implemented.
+
+
+NEW QUESTION 239
+- (Exam Topic 2)
+A company is enhancing the security of the wireless network and needs to ensure only employees with a valid certificate can authenticate to the network. Which of the following should the company implement?
+A. PEAP
+B. PSK
+C. WPA3
+D. WPS
+Answer: A
+Explanation: 
+PEAP stands for Protected Extensible Authentication Protocol, which is a protocol that can provide secure authentication for wireless networks. PEAP can use certificates to authenticate the server and the client, or only the server. PEAP can also use other methods, such as passwords or tokens, to authenticate the client. PEAP can ensure only employees with a valid certificate can authenticate to the network.
+
+
+NEW QUESTION 241
+- (Exam Topic 2)
+A security administrator suspects there may be unnecessary services running on a server. Which of the following tools will the administrator most likely use to confirm the suspicions?
+A. Nmap
+B. Wireshark
+C. Autopsy
+D. DNSEnum
+Answer: A
+Explanation: 
+Nmap is a tool that is used to scan IP addresses and ports in a network and to detect installed applications. Nmap can help a security administrator determine the services running on a server by sending various packets to the target and analyzing the responses. Nmap can also perform various tasks such as OS detection, version detection, script scanning, firewall evasion, and vulnerability scanning.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://nmap.org/
+
+
+NEW QUESTION 242
+- (Exam Topic 2)
+A company a "right to forgotten" request To legally comply, the company must remove data related to the requester from its systems. Which Of the following Company most likely complying with?
+A. NIST CSF
+B. GDPR
+C. PCI OSS
+D. ISO 27001
+Answer: B
+Explanation: 
+GDPR stands for General Data Protection Regulation, which is a law that regulates data protection and privacy in the European Union (EU) and the European Economic Area (EEA). GDPR also applies to the transfer of personal data outside the EU and EEA areas. GDPR grants individuals the right to request the deletion or removal of their personal data from an organization's systems under certain circumstances. This right is also known as the "right to be forgotten" or the "right to erasure". An organization that receives such a request must comply with it within a specified time frame, unless there are legitimate grounds for retaining the data.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://gdpr-info.eu/issues/right-to-be-forgotten/
+
+
+NEW QUESTION 247
+- (Exam Topic 2)
+Which of the following is used to validate a certificate when it is presented to a user?
+A. OCSP
+B. CSR
+C. CA
+D. CRC
+Answer: A
+Explanation: 
+Online Certificate Status Protocol (OCSP) is used to validate a certificate when it is presented to a user. OCSP is a protocol that allows a client or browser to query the status of a certificate from an OCSP responder, which is a server that maintains and provides the revocation status of certificates issued by a certificate authority (CA). OCSP can help to verify the authenticity and validity of a certificate and prevent the use of revoked or expired certificates. References:
+https://www.comptia.org/blog/what-is-ocsp
+https://www.certblaster.com/wp-content/uploads/2020/11/CompTIA-Security-SY0-601-Exam-Objectives-1.0.pd
+
+
+NEW QUESTION 251
+- (Exam Topic 2)
+A security analyst is reviewing computer logs because a host was compromised by malware After the computer was infected it displayed an error screen and shut down. Which of the following should the analyst review first to determine more information?
+A. Dump file
+B. System log
+C. Web application log
+D. Security too
+Answer: A
+Explanation: 
+A dump file is the first thing that a security analyst should review to determine more information about a compromised device that displayed an error screen and shut down. A dump file is a file that contains a snapshot of the memory contents of a device at the time of a system crash or error. A dump file can help a security analyst analyze the cause and source of the crash or error, as well as identify any malicious code or activity that may have triggered it.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/introduction-to-crash-dump-files
+
+
+NEW QUESTION 252
+- (Exam Topic 2)
+Which of the following can be used by an authentication application to validate a user's credentials without the need to store the actual sensitive data?
+A. Salt string
+B. Private Key
+C. Password hash
+D. Cipher stream
+Answer: C
+Explanation: 
+Password hash is a method of storing a user's credentials without the need to store the actual sensitive data. A password hash is a one-way function that transforms the user's password into a fixed-length string of characters that cannot be reversed. The authentication application can then compare the password hash with the stored hash to validate the user's credentials without revealing the original password. References: 1 CompTIA Security+ Certification Exam Objectives, page 15, Domain 3.0: Implementation, Objective 3.5: Implement secure authentication mechanisms 2
+CompTIA Security+ Certification Exam Objectives, page 16,
+Domain 3.0: Implementation, Objective 3.6: Implement identity and account management best practices 3 https://www.comptia.org/blog/what-is-password-hashing
+
+
+NEW QUESTION 254
+- (Exam Topic 2)
+Law enforcement officials sent a company a notification that states electronically stored information and paper documents cannot be destroyed. Which of the following explains this process?
+A. Data breach notification
+B. Accountability
+C. Legal hold
+D. Chain of custody
+Answer: C
+Explanation: 
+A legal hold is a process that requires an organization to preserve electronically stored information and paper documents that are relevant to a pending or anticipated litigation or investigation. It suspends the normal retention and destruction policies and procedures for such information and documents until the legal hold is lifted or released.
+
+
+NEW QUESTION 256
+- (Exam Topic 2)
+A security engineer needs to recommend a solution to defend against malicious actors misusing protocols and being allowed through network defenses. Which of the following will the engineer most likely recommended?
+A. A content filter
+B. AWAF
+C. A next-generation firewall
+D. An IDS
+Answer: C
+Explanation: 
+A next-generation firewall (NGFW) is a solution that can defend against malicious actors misusing protocols and being allowed through network defenses. A NGFW is a type of firewall that can perform deep packet inspection, application-level filtering, intrusion prevention, malware detection, and identity-based access control. A NGFW can also use threat intelligence and behavioral analysis to identify and block malicious traffic based on protocols, signatures, or anomalies. References:
+https://www.comptia.org/blog/what-is-a-next-generation-firewall
+https://www.certblaster.com/wp-content/uploads/2020/11/CompTIA-Security-SY0-601-Exam-Objectives-1.0.pd
+
+
+NEW QUESTION 260
+- (Exam Topic 2)
+Which of the following automation use cases would best enhance the security posture Of an organi-zation by rapidly updating permissions when employees leave a company Or change job roles inter-nally?
+A. Provisioning resources
+B. Disabling access
+C. APIs
+D. Escalating permission requests
+Answer: B
+Explanation: 
+Disabling access is an automation use case that can enhance the security posture of an organization by rapidly updating permissions when employees leave a company or change job roles internally. It can prevent unauthorized access and data leakage by revoking or modifying the access rights of employees based on their current status and role.
+
+
+NEW QUESTION 262
+- (Exam Topic 2)
+A security professional wants to enhance the protection of a critical environment that is Used to store and manage a company's encryption keys. The selected technology should be tamper resistant. Which of the following should the security professional implement to achieve the goal?
+A. DLP
+B. HSM
+C. CA
+D. FIM
+Answer: B
+Explanation: 
+HSM stands for hardware security module, which is a physical device that is used to store and manage cryptographic keys in a secure and tamper-resistant manner. HSMs can provide high-performance encryption and decryption operations, as well as key generation, backup, and recovery. HSMs can also prevent unauthorized access or extraction of the keys, even by the cloud service provider or the HSM vendor. HSMs can enhance the protection of a critical environment that is used to store and manage encryption keys for a financial institution or any other organization that deals with sensitive data. References:
+ https://www.comptia.org/certifications/security
+ https://www.professormesser.com/security-plus/sy0-501/hardware-security-3/
+
+
+NEW QUESTION 265
+- (Exam Topic 2)
+A contractor overhears a customer recite their credit card number during a confidential phone call. The credit card Information is later used for a fraudulent transaction. Which of the following social engineering techniques describes this scenario?
+A. Shoulder surfing
+B. Watering hole
+C. Vishing
+D. Tailgating
+Answer: A
+Explanation: 
+Shoulder surfing is a social engineering technique that involves looking over someone's shoulder to see what they are typing, writing, or viewing on their screen. It can be used to steal passwords, PINs, credit card numbers, or other sensitive information. In this scenario, the contractor used shoulder surfing to overhear the customer's credit card number during a phone call.
+
+
+NEW QUESTION 268
+- (Exam Topic 2)
+A network engineer is troubleshooting wireless network connectivity issues that were reported by users The issues are occurring only in the section of the building that is closest to the parking lot. Users are intermittently experiencing slow speeds when accessing websites and are unable to connect to network drives. The issues appear to increase when laptop users return to their desks after using their devices in other areas of the building There have also been reports of users being required to enter their credentials on web pages in order to gain access to them Which of the following is the most likely cause of this issue?
+A. An external access point is engaging in an evil-Twin attack
+B. The signal on the WAP needs to be increased in that section of the building
+C. The certificates have expired on the devices and need to be reinstalled
+D. The users in that section of the building are on a VLAN that is being blocked by the firewallAnswer: A
+Explanation: 
+An evil-Twin attack is a type of wireless network attack that involves setting up a rogue access point that mimics a legitimate one. It can trick users into connecting to the rogue access point instead of the real one, and then intercept or modify their traffic, steal their credentials, launch phishing pages, etc. It is the most likely cause of the issue that users are experiencing slow speeds, unable to connect to network drives, and required to enter their credentials on web pages when working in the section of the building that is closest to the parking lot, where an external access point could be placed nearby.
+
+
+NEW QUESTION 272
+- (Exam Topic 2)
+Which of the following will increase cryptographic security?
+A. High data entropy
+B. Algorithms that require less computing power
+C. Longer key longevity
+D. Hashing
+Answer: A
+Explanation: 
+Data entropy is a measure of the randomness or unpredictability of data. High data entropy means that the data has more variation and less repetition, making it harder to guess or crack. It can increase cryptographic security by making the encryption keys and ciphertext more complex and resistant to brute-force attacks, frequency analysis, etc
+
+
+NEW QUESTION 273
+- (Exam Topic 2)
+A corporate security team needs to secure the wireless perimeter of its physical facilities to ensure only authorized users can access corporate resources. Which of the following should the security team do? (Refer the answer from CompTIA SY0-601 Security+ documents or guide at comptia.org)
+A. Identify rogue access points.
+B. Check for channel overlaps.
+C. Create heat maps.
+D. Implement domain hijacking.
+Answer: A
+Explanation: 
+Based on CompTIA SY0-601 Security+ guide, the answer to the question is A. Identify rogue access points. To secure the wireless perimeter of its physical facilities, the corporate security team should focus on identifying rogue access points, which are unauthorized access points that have been set up by employees or outsiders to bypass security controls. By identifying and removing these rogue access points, the team can ensure that only authorized users can access corporate resources through the wireless network. https://www.comptia.org/training/books/security-sy0-601-study-guide
+
+
+NEW QUESTION 278
+- (Exam Topic 2)
+A security engineer updated an application on company workstations. The application was running before the update, but it is no longer launching successfully. Which of the following most likely needs to be updated?
+A. Blocklist
+B. Deny list
+C. Quarantine list
+D. Approved fist
+Answer: D
+Explanation: 
+Approved list is a list of applications or programs that are allowed to run on a system or network. An approved list can prevent unauthorized or malicious software from running and compromising the security of the system or network. An approved list can also help with patch management and compatibility issues. If the security engineer updated an application on the company workstations, the application may need to be added or updated on the approved list to be able to launch successfully. References: 1
+CompTIA Security+ Certification
+Exam Objectives, page 10, Domain 2.0: Architecture and Design, Objective 2.4: Explain the importance of embedded and specialized systems security 2
+CompTIA Security+ Certification Exam Objectives, page 12,
+Domain 3.0: Implementation, Objective 3.1: Implement secure network architecture concepts 3 https://www.comptia.org/blog/what-is-application-whitelisting
+
+
+NEW QUESTION 281
+- (Exam Topic 2)
+Employees in the research and development business unit receive extensive training 10 ensure they understand how to best protect company data. Which of the following is the type of data these employees are most likely to use in day-to-day work activities?
+A. Encrypted
+B. Intellectual property
+C. Critical
+D. Data in transit
+Answer: B
+Explanation: 
+Intellectual property is a type of data that is proprietary and unique to an organization. It includes trade secrets and other information that the organization does not want to share with third parties or competitors. Employees in the research and development business unit are most likely to use intellectual property in their day-today work activities, as they are involved in creating new products, services, or processes for the organization. Intellectual property data requires a high level of security and protection, as it can provide a competitive advantage or disadvantage if leaked or stolen.
+Encrypted data is not a type of data, but a state of data. Encryption is a method of transforming data into an unreadable format using a key, so that only authorized parties can access it. Encryption can be applied to any type of data, such as intellectual property, critical data, or data in transit.
+Critical data is a type of data that is essential for the operation and continuity of an organization. It includes information such as customer records, financial transactions, employee details, and so on. Critical data may or may not be intellectual property, depending on the nature and source of the data. Critical data also requires a high level of security and protection, as it can affect the reputation, performance, or legal compliance of the organization.
+Data in transit is not a type of data, but a state of data. Data in transit refers to data that is moving from one location to another over a network, such as the internet, a LAN, or a WAN. Data in transit can be vulnerable to interception, modification, or theft by malicious actors. Data in transit can also be any type of data, such as intellectual property, critical data, or PII.
+
+
+NEW QUESTION 284
+- (Exam Topic 2)
+A security analyst reviews web server logs and notices the following line: 104.35. 45.53 [22/May/2020:07 : 00:58 +0100] "GET . UNION ALL SELECT user login, user _ pass, user email from wp users-- HTTP/I.I" 200 1072 http://www.example.com/wordpress/wp-admin/
+Which of the following vulnerabilities is the attacker trying to exploit?
+A. SSRF
+B. CSRF
+C. xss
+D. SQLi
+Answer: D
+Explanation: 
+SQLi stands for SQL injection, which is a type of web security vulnerability that allows an attacker to execute malicious SQL statements on a database server.
+SQLi can result in data theft, data corruption, denial of service, or remote code execution.
+The attacker in the web server log is trying to exploit a SQLi vulnerability by sending a malicious GET request that contains a UNION ALL SELECT statement. This statement is used to combine the results of two or more SELECT queries into a single result set. The attacker is attempting to retrieve user login, user pass, and user email from the wp users table, which is a WordPress database table that stores user information. The attacker may use this information to compromise the WordPress site or the users' accounts.
+
+
+NEW QUESTION 287
+- (Exam Topic 2)
+Which of the following would most likely include language prohibiting end users from accessing personal email from a company device?
+A. SLA
+B. BPA
+C. NDA
+D. AUP
+Answer: D
+Explanation: 
+AUP or Acceptable Use Policy is a document that defines the rules and guidelines for using a company's IT resources, such as devices, networks, internet, email, etc. It usually includes language prohibiting end users from accessing personal email from a company device, as well as other activities that may compromise security or productivity1. https://www.thesecuritybuddy.com/governance-risk-and-compliance/what-are-sla-mou-bpa-and-nda/ 3: https://www.professormesser.com/security-plus/sy0-501/agreement-types/ 1: https://www.techopedia.com/definition/2471/acceptable-use-policy-aup
+
+
+NEW QUESTION 291
+- (Exam Topic 2)
+An organization wants to ensure that proprietary information is not inadvertently exposed during facility tours. Which of the following would the organization implement to mitigate this risk?
+A. Clean desk policy
+B. Background checks
+C. Non-disclosure agreements
+D. Social media analysis
+Answer: A
+Explanation: 
+A clean desk policy is a set of rules that require employees to clear their desks of any documents, papers, or devices that contain sensitive or confidential information when they leave their workstations. This policy helps to prevent unauthorized access, theft, or disclosure of proprietary information during facility tours or other situations where outsiders may visit the premises.
+* A. Clean desk policy. This is the correct answer, because a clean desk policy is a simple and effective way to mitigate the risk of exposing proprietary information during facility tours.
+
+
+NEW QUESTION 294
+- (Exam Topic 2)
+A company has numerous employees who store PHI data locally on devices. The Chief Information Officer wants to implement a solution to reduce external exposure of PHI but not affect the business.
+The first step the IT team should perform is to deploy a DLP solution:
+A. for only data in transit.
+B. for only data at reset.
+C. in blocking mode.
+D. in monitoring mode.
+Answer: D
+Explanation: 
+A DLP solution in monitoring mode is a good first step to deploy for data loss prevention. It allows the IT team to observe and analyze the data flows and activities without blocking or interfering with them. It helps to identify the sources and destinations of sensitive data, the types and volumes of data involved, and the potential risks and violations. It also helps to fine-tune the DLP policies and rules before switching to blocking mode, which can disrupt business operations if not configured properly.
+
+
+NEW QUESTION 295
+- (Exam Topic 2)
+A systems administrator is required to enforce MFA for corporate email account access, relying on the possession factor. Which of the following authentication methods should the systems administrator choose? (Select two).
+A. passphrase
+B. Time-based one-time password
+C. Facial recognition
+D. Retina scan
+E. Hardware token
+F. Fingerprints
+Answer: BE
+Explanation: 
+Time-based one-time password (TOTP) and hardware token are authentication methods that rely on the possession factor, which means that the user must have a specific device or object in their possession to authenticate. A TOTP is a password that is valid for a short period of time and is generated by an app or a device that the user has. A hardware token is a physical device that displays a code or a password that the user can enter to authenticate. A passphrase (Option A) is a knowledge factor, while facial recognition (Option C), retina scan (Option D), and fingerprints (Option F) are all inherence factors. https://ptgmedia.pearsoncmg.com/imprint_downloads/pearsonitcertification/bookreg/9780136798675/97801367 https://www.youtube.com/watch?v=yCJyPPvM-xg
+
+
+NEW QUESTION 299
+- (Exam Topic 2)
+Which of the following can be used to calculate the total loss expected per year due to a threat targeting an asset?
+A. EF x asset value
+B. ALE / SLE
+C. MTBF x impact
+D. SLE x ARO
+Answer: D
+Explanation: 
+The total loss expected per year due to a threat targeting an asset can be calculated using the Single Loss Expectancy (SLE) multiplied by the Annualized Rate of Occurrence (ARO). SLE is the monetary loss expected from a single event, while ARO is the estimated frequency of that event occurring in a year. Reference: CompTIA Security+ Study Guide: Exam SY0-501, 7th Edition, by Emmett Dulaney and Chuck Easttom, Chapter 9: Risk Management, page 414.
+
+
+NEW QUESTION 304
+- (Exam Topic 2)
+An engineer is using scripting to deploy a network in a cloud environment. Which the following describes this scenario?
+A. SDLC
+B. VLAN
+C. SDN
+D. SDV
+Answer: C
+Explanation: 
+SDN stands for software-defined networking, which is an approach to networking that uses software-based controllers or application programming interfaces (APIs) to communicate with underlying hardware infrastructure and direct traffic on a network. SDN decouples the network control plane from the data plane, enabling centralized management and programmability of network resources. SDN can help an engineer use scripting to deploy a network in a cloud environment by allowing them to define and automate network policies, configurations, and services through software commands.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://www.cisco.com/c/en/us/solutions/software-defined-networking/overview.html
+
+
+NEW QUESTION 309
+- (Exam Topic 2)
+A Chief Information Security Officer (CISO) is evaluating the dangers involved in deploying a new ERP system for the company. The CISO categorizes the system, selects the controls that apply to the system, implements the controls, and then assesses the success of the controls before authorizing the system. Which of the following is the CISO using to evaluate the environment for this new ERP system?
+A. The Diamond Model of Intrusion Analysis
+B. CIS Critical Security Controls
+C. NIST Risk Management Framework
+D. ISO 27002
+Answer: C
+Explanation: 
+The NIST Risk Management Framework (RMF) is a process for evaluating the security of a system and implementing controls to reduce potential risks associated with it. The RMF process involves categorizing the system, selecting the controls that apply to the system, implementing the controls, and then assessing the success of the controls before authorizing the system. For more information on the NIST Risk Management Framework and other security processes, refer to the CompTIA Security+ SY0-601 Official Text Book and Resources.
+
+
+NEW QUESTION 312
+- (Exam Topic 2)
+A security analyst is using OSINT to gather information to verify whether company data is available publicly. Which of the following is the BEST application for the analyst to use?
+A. theHarvester
+B. CuckooC. Nmap
+D. Nessus
+Answer: A
+Explanation: 
+TheHarvester is a reconnaissance tool that is used to gather information about a target organization, such as email addresses, subdomains, and IP addresses. It can also be used to gather information about a target individual, such as email addresses, phone numbers, and social media profiles. TheHarvester is specifically designed for OSINT (Open-Source Intelligence) and it can be used to discover publicly available information about a target organization or individual.
+
+
+NEW QUESTION 314
+- (Exam Topic 2)
+An organization has been experiencing outages during holiday sales and needs to ensure availability of its point-of-sales systems. The IT administrator has been asked to improve both server-data fault tolerance and site availability under high consumer load. Which of the following are the best options to accomplish this objective? (Select two.)
+A. Load balancing
+B. Incremental backups
+C. UPS
+D. RAID
+E. Dual power supply
+F. VLAN
+Answer: AD
+Explanation: 
+Load balancing and RAID are the best options to accomplish the objective of improving both server-data fault tolerance and site availability under high consumer load. Load balancing is a method of distributing network traffic across multiple servers to optimize performance, reliability, and scalability. Load balancing can help improve site availability by preventing server overload, ensuring high uptime, and providing redundancy and failover. RAID stands for redundant array of independent disks, which is a technology that combines multiple physical disks into a logical unit to improve data storage performance, reliability, and capacity.
+RAID can help improve server-data fault tolerance by providing data redundancy, backup, and recovery.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://www.nginx.com/resources/glossary/load-balancing/ https://www.ibm.com/cloud/learn/raid
+
+
+NEW QUESTION 316
+- (Exam Topic 2)
+After installing a patch On a security appliance. an organization realized a massive data exfiltration occurred. Which Of the following describes the incident?
+A. Supply chain attack
+B. Ransomware attack
+C. Cryptographic attack
+D. Password attack
+Answer: A
+Explanation: 
+A supply chain attack is a type of attack that involves compromising a trusted third-party provider or vendor and using their products or services to deliver malware or gain access to the target organization. The attacker can exploit the trust and dependency that the organization has on the provider or vendor and bypass their security controls. In this case, the attacker may have tampered with the patch for the security appliance and used it to exfiltrate data from the organization.
+
+
+NEW QUESTION 320
+- (Exam Topic 2)
+Which of the following is used to quantitatively measure the criticality of a vulnerability?
+A. CVE
+B. CVSS
+C. CIA
+D. CERT
+Answer: B
+Explanation: 
+The correct answer is B. CVSS.
+CVSS stands for Common Vulnerability Scoring System. It is a framework that provides a standardized way to measure the criticality of a vulnerability based on various factors, such as the impact, exploitability, and remediation level of the vulnerability. CVSS assigns a numerical score from 0 to 10 to each vulnerability, where 0 means no risk and 10 means the highest risk. CVSS also provides a qualitative rating for each score, such as low, medium, high, or critical. CVSS helps organizations prioritize the remediation of vulnerabilities based on their severity and potential impact12.
+CVE stands for Common Vulnerabilities and Exposures. It is a list of publicly known and standardized identifiers for vulnerabilities and exposures in software and hardware systems. CVE provides a brief description of each vulnerability or exposure, but does not assign a score or rating to them. CVE helps organizations communicate and share information about vulnerabilities and exposures in a consistent and reliable way3 .
+CIA stands for Confidentiality, Integrity, and Availability. It is a model that defines the three main objectives of information security. Confidentiality means protecting data from unauthorized access or disclosure. Integrity means ensuring data is accurate and consistent and has not been tampered with. Availability means ensuring data is accessible and usable by authorized parties when needed. CIA helps organizations design and implement security controls and policies to protect their data and systems .
+CERT stands for Computer Emergency Response Team. It is a group of experts who respond to security incidents and provide guidance and assistance to mitigate and prevent cyberattacks. CERT also conducts research and analysis on cybersecurity trends and issues, and disseminates information and best practices to the public. CERT helps organizations improve their security posture and resilience against cyber threats .
+For more information on CVSS and other concepts related to vulnerability assessment and management, you can refer to [this video] or [this guide] from CompTIA Security+.
+
+
+NEW QUESTION 322
+- (Exam Topic 2)
+Which Of the following supplies non-repudiation during a forensics investiga-tion?
+A. Dumping volatile memory contents first
+B. Duplicating a drive With dd
+C. a SHA 2 signature of a drive image
+D. Logging everyone in contact with evidence
+E. Encrypting sensitive data
+Answer: C
+Explanation: 
+A SHA 2 signature is a cryptographic hash function that produces a unique and fixed-length output for any given input. It can provide non-repudiation during a forensics investigation by verifying the integrity and authenticity of a drive image and proving that it has not been altered or tampered with since it was created
+
+
+NEW QUESTION 326
+- (Exam Topic 2)
+A network administrator needs to determine the sequence of a server farm's logs. Which of the following should the administrator consider? (Select two).
+A. Chain of custody
+B. Tags
+C. Reports
+D. Time stamps
+E. Hash values
+F. Time offset
+Answer: DF
+Explanation: 
+A server farm's logs are records of events that occur on a group of servers that provide the same service or function. Logs can contain information such as date, time, source, destination, message, error code, and severity level. Logs can help administrators monitor the performance, security, and availability of the servers and troubleshoot any issues.
+To determine the sequence of a server farm's logs, the administrator should consider the following factors:
+• Time stamps: Time stamps are indicators of when an event occurred on a server. Time stamps can help administrators sort and correlate events acrossdifferent servers based on chronological order. However, time stamps alone may not be sufficient to determine the sequence of events if the servers have different time zones or clock settings.
+• Time offset: Time offset is the difference between the local time of a server and a reference time, such as Coordinated Universal Time (UTC) or GreenwichMean Time (GMT). Time offset can help administrators adjust and synchronize the time stamps of different servers to a common reference time and eliminate any discrepancies caused by time zones or clock settings.
+References: https://www.comptia.org/certifications/security#examdetails https://www.comptia.org/content/guides/comptia-security-sy0-601-exam-objectives https://docs.microsoft.com/en-us/windows-server/administration/server-manager/view-event-logs
+
+
